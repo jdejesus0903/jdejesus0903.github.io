@@ -8,7 +8,7 @@ font-family: "Passero One", sans-serif;
 }
 
 body{
-    background-image: url('../assets/css-pattern-by-magicpattern.png');
+    background-image: url(../assets/css-pattern-by-magicpattern.png);
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 16px;
