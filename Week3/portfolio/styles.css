@@ -1,109 +1,47 @@
 *{
-    --base: #452632ff;
---borderColor: #91204dff;
---cardColors: #c6878fff;
---accentColor: #b79d94ff;
-color: #969696ff;
-font-family: "Passero One", sans-serif;
+     --base: #4F6D7A;
+--borderColor: #C0D6DF;
+--cardColors: #DBE9EE;
+--accentColor: #4A6FA5;
+color: #166088;
 }
 
-body{
-    background-image: url('./assets/css-pattern-by-magicpattern.png');
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 16px;
-    padding-bottom: 60px;
+.card {
+    background-color: var(--cardColors);
+    padding: 36px;
+    border: .5px solid var(--base);
+    border-radius: 12px;
+    height: 750px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 12px;
 }
-header{
-    padding-top: 15px;
-    padding-bottom: 0px;
-    margin-bottom: 32px;
-  font-family: "Passero One", sans-serif;
-  color: var(--accentColor);
-  font-size: 32px;
-  font-weight: 400;
-  font-style: normal;
-  background-color: var(--base);
-  text-align: center;
-
-}
-header::first-letter{
-    font-size: 36px;
+ 
+.card div> img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 2px 1px 1px var(#000);
 }
 
-.title{
-    font-family: "Passero One", sans-serif;
-  color: var(--accentColor);
-  font-size: 32px;
+h2 {
+  font-family: "Amarante", serif;
+  font-size: 24px;
   font-weight: 600;
   font-style: normal;
-  text-shadow: 3px 0px 0px #3A4F41;
-  text-align: center;
-}
-h2{
-     font-family: "Passero One", sans-serif;
-  font-size: 36px;
-  font-weight: 600;
-  font-style: normal;
-  text-shadow: 3px 0px 0px #3A4F41;
-  margin-bottom: 32px;
+  text-shadow: 1px 0px 0px #3A4F41;
+  margin-bottom: 4px;
   text-transform: capitalize;
 }
 
-.cards {
-
-}
-
-.cards div{
-    background-color: var(--base);
-    padding: 16px;
-    border: .5px solid var(--cardColors);
-    border-radius: 4px;
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 24px;
-
-    transition: all 500ms;
-}
-
-.cards div:hover{
-    box-shadow:8px 8px var(--cardColors);
-}
-.cards div> img{
-    width: 100%;
-    height: 10%;
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 2px 1px 1px var(#3A4F41);
-}
-
-h3 {
-    color: #fff;
-    font-family: "Passero One", sans-serif;
-    font-size: 32px;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 126.637%;
-    letter-spacing: 3.52px;
-    text-transform: uppercase;
-}
-
-.education > ul{
-    opacity: 80%;
-    background-color: #3A4F41;
-    font-size: 24px;
-    padding: 16px;
-}
-
-.BACKGROUND > ul{
-    opacity: 80%;
-    background-color: #3A4F41;
-    font-size: 24px;
-    padding: 16px;
-    
-}
-
-.year {
-    color: #fff
+h1 {
+  font-family: "Amarante", serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 1px 0px 0px #3A4F41;
+  margin-bottom: 32px;
+  text-transform: capitalize;
 }
