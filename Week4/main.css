@@ -1,0 +1,208 @@
+* { 
+    --primary1: whitesmoke; 
+    --primary2: darkgrey; 
+    --emphasisRed: #C20000;
+    font-size: 12px; 
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body{ 
+  padding: 0px; 
+  margin: 0px; 
+  background-color: lightslategray;
+}
+
+nav {
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    background-color: darkgrey;
+    color:whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    z-index: 10;
+    height:96px
+
+}
+nav > img {
+    height: 120px;
+    width: 120px;
+
+}
+
+nav > ul {
+  margin-left: 4px; 
+ flex-grow: auto;
+  list-style-type: none;
+  display: flex; 
+  justify-content: space-around;
+}
+
+nav ul > li { 
+  padding: 8px; 
+  margin-right: 60px; 
+}
+
+nav ul > li:hover{
+  background-color: lightslategray;
+  color: darkgrey;
+}
+
+.banner{
+    background-image: url('/jdejesus0903.github.io-main/Week4/images/field.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+    position:relative;
+    box-sizing: border-box;
+}
+
+.banner header, .banner p{
+    margin: 0 auto;
+    z-index: 9;
+}
+
+.banner header{
+    font-size: 52px;
+    color: white;
+
+}
+
+.banner p{
+    font-size: 46px;
+    color:white
+}
+
+.staff header{ 
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#overlay {
+    position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  z-index: 8;
+  height: 100vh; 
+  width: 100vw; 
+  background-color: rgba(7, 7, 7, 0.5);
+}
+
+
+.horse1 {
+  display:inline-flex;
+  height: 13vw;
+  width: 100vw;
+  padding: 24px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.cub{
+  color: var(--primary1);
+  padding: 15px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4.5rem;
+
+}
+
+.horse2 {
+  display:flex;
+  height: 14vw;
+  width: 100vw;
+  padding: 24px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.csf{
+  color: var(--primary1);
+  padding: 25px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4.5rem;
+
+}
+.horse3 {
+  display:flex;
+  height: 16vw;
+  width: 100vw;
+  padding: 24px;
+  margin: 0 auto;
+  justify-content:space-evenly
+}
+
+
+.mmm{
+  color: var(--primary1);
+  padding: 15px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4.5rem;
+
+}
+.horse4 {
+  display:flex;
+  height: 16vw;
+  width: 100vw;
+  padding: 24px;
+  margin: 0 auto;
+  justify-content:space-evenly
+}
+
+
+.mmm{
+  color: var(--primary1);
+  padding: 15px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4.5rem;
+
+}
+
+
+.footer{
+  position:fixed;
+  display: flex;
+  background-color: white;
+  color:black;
+  padding: 16px;
+  
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-start: 2 ;
+  gap:10px;
+}
+@media (min-width:600px){.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+  gap: 20px;
+}
+
+  
+  
+}
+
+.grid-item{
+  text-align: center;
+  background-color: var(--primary1);
+}
+
+
+
+
+
+
+
