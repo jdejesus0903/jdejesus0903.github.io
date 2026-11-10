@@ -55,7 +55,7 @@ nav ul > li:hover{
 }
 
 .banner{
-    background-image: url('../Week4/images/field.jpg');
+    background-image: url('./Week4/images/field.jpg');
     height: 100vh;
     width: 100vw;
     background-size: cover ;
